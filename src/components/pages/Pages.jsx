@@ -5,6 +5,7 @@ import { About } from "../pages/About";
 import  Services  from "../pages/Services";
 import Portfolio from "../pages/Portfolio";
 import Testimonials  from "../pages/Testimonials";
+import Blog  from "../pages/Blog";
 
 const Pages = () => {
   return (
@@ -17,6 +18,7 @@ const Pages = () => {
           <Route exact path='/services' component={Services} />
           <Route exact path='/portfolio' component={Portfolio} />
           <Route exact path='/testimonials' component={Testimonials} />
+          <Route exact path='/blog' component={Blog} />
           
         </Switch>
       
