@@ -6,6 +6,7 @@ import  Services  from "../pages/Services";
 import Portfolio from "../pages/Portfolio";
 import Testimonials  from "../pages/Testimonials";
 import Blog  from "../pages/Blog";
+import Contact from "../pages/Contact";
 
 const Pages = () => {
   return (
@@ -19,6 +20,7 @@ const Pages = () => {
           <Route exact path='/portfolio' component={Portfolio} />
           <Route exact path='/testimonials' component={Testimonials} />
           <Route exact path='/blog' component={Blog} />
+          <Route exact path='/contact' component={Contact} />
           
         </Switch>
       
