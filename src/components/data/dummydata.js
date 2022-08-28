@@ -112,7 +112,7 @@ export const project = [
     id: 2,
     icon: <FavoriteBorderIcon />,
     num: "231",
-    title: "PROJECTS COMPLEATED",
+    title: "PROJECTS COMPLETED",
   },
   {
     id: 3,
@@ -124,7 +124,7 @@ export const project = [
     id: 4,
     icon: <PersonOutlinedIcon />,
     num: "1446",
-    title: "LIENS OF CODE",
+    title: "LINES OF CODE",
   },
 ]
 export const portfolio = [
