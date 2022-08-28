@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import {Header} from "../common/Header";
 import Home from "../home/Home";
 import { About } from "../pages/About";
+import  Services  from "../pages/Services";
 
 const Pages = () => {
   return (
@@ -11,6 +12,7 @@ const Pages = () => {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
+          <Route exact path='/services' component={Services} />
           
         </Switch>
       
